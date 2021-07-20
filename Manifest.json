@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ "name": "Amazon Price Drop Extension",
+ "version": "1.0",
+"description": "An extension for price drop a particular product on Amazon.",
+"browser_action": {
+  "default_popup": "popup.html"
+},
+"background": {
+  "scripts": ["background.js"],
+  "persistant": false
+}
+}
